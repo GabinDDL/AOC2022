@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 import Use.Scan;
 
-public class RockPaperScisor {
+public class RockPaperScissor {
 
     private Scanner scanner;
 
-    public RockPaperScisor(String nom) {
+    public RockPaperScissor(String nom) {
         scanner = Scan.getScanner(nom);
     }
 
